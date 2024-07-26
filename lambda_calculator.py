@@ -12,5 +12,5 @@ def main():
     print(f"{num1} * {num2} = {multiply(num1, num2)}")
     print(f"{num1} / {num2} = {divide(num1, num2)}")
 
-if name == "main":
+if __name__ == "main":
     main()
